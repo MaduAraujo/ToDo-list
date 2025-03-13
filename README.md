@@ -1,50 +1,27 @@
-# Welcome to your Expo app 👋
+<h1>ToDo List</h1>
+</p>
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
-## Get started
+## 💻 Sobre
+A ideia deste projeto é criar uma aplicação para controle de tarefas na qual o usuário pode adicionar tarefas a serem realizadas e atualizar o status das mesmas conforme forem sendo completadas. O projeto lista a quantidade de tarefas cadastradas e já completadas. A filtragem das tarefas é feita através de um ID gerado automaticamente pelo UUID. Desta forma, caso o usuário cadastre 2 tarefas com o mesmo nome, a atualização ou exclusão de uma não resultará na exclusão da outra. Todas as informações das tarefas são salvas dentro de um array de objetos utilizando o useState do React.
 
-1. Install dependencies
+___
 
-   ```bash
-   npm install
-   ```
+## 🎨 Layout
 
-2. Start the app
+![Captura de tela 2025-03-13 200625](https://github.com/user-attachments/assets/c1e3ed3b-d930-4884-8144-78a34cf4b179)
 
-   ```bash
-    npx expo start
-   ```
+___
 
-In the output, you'll find options to open the app in a
+## 🛠 Tecnologias
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+As seguintes tecnologias foram empregadas na criação deste projeto:
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+- [React Native](https://reactnative.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Expo Checkbox](https://docs.expo.dev/versions/latest/sdk/checkbox/)
+- [uuid](https://www.npmjs.com/package/react-native-uuid)
 
-## Get a fresh project
+___
 
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Made with ❤️ by Maria Eduarda 👋🏽 [Get in Touch!](https://www.linkedin.com/in/mariaeduarda2801/)
